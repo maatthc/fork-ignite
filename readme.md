@@ -21,7 +21,8 @@ It may work for other distributions and desktop environments, but that is not te
    `/$HOME/.local/bin` or `$HOME/bin` seem like sane choices.
 2. Copy the launcher `cp ignite.desktop ~/.local/share/applications`.
 3. Set it to be your default browser: `xdg-settings set default-web-browser ignite.desktop`
-4. Sanity
+4. Update the menus: `update-desktop-database ~/.local/share/applications/` 
+5. Sanity
 
 ### FLATPAK
 
